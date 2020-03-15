@@ -34,24 +34,27 @@ size_t min(const size_t &first, const size_t &second) {
     return (first < second ? first : second);
 }
 
+void detectRange(int &left, int &right) {
+
+}
+
 size_t maxPerfectTeams(const size_t &nMath, const size_t &nCoders, const size_t &nUndefined) {
-    int maximum = max(nMath, nCoders);
+    const int maximum = max(nMath, nCoders);
     int maxTeams = min(nMath, nCoders);
-    int mn2 = min(nMath, nCoders);
+    const int max_teams = min(nMath, nCoders);
     int undefined = nUndefined;
-    int L;
-    int R = min;
+    int prev = 0;
 
     while (maxTeams != 0 && ((maximum + undefined) / maxTeams) < 2) {
-        R = maxTeams;
+        prev = maxTeams;
         maxTeams /= 2;
     }
 
     if(maxTeams == 0)
         return 0;
 
-    L = maxTeams;
-
+    int L = maxTeams;
+    int R = prev;
     if (L == R)
         return L;
 
@@ -61,7 +64,7 @@ size_t maxPerfectTeams(const size_t &nMath, const size_t &nCoders, const size_t 
     int res;
     while (R - L > 1) {
         mid = (L + R) / 2;
-        res = (maximum + undefined + (mn2 - mid)) / mid;
+        res = (maximum + undefined + (max_teams - mid)) / mid;
         if (res >= 2) {
             L = mid;
         } else {
