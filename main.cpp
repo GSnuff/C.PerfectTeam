@@ -22,8 +22,6 @@ int main() {
 
     for (uint32_t perfectTeam : perfectTeams)
         std::cout << perfectTeam << ' ' ;
-
-
 }
 
 uint32_t max(const uint32_t &first, const uint32_t &second) {
