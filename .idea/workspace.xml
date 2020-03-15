@@ -13,6 +13,8 @@
   <component name="ChangeListManager">
     <list default="true" id="fe89aa7c-0f7c-4f7b-a02f-8c9266fd8845" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Alg1.exe" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Alg1.exe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Alg1.dir/objects.a" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Alg1.dir/objects.a" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/main.cpp" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -64,7 +66,7 @@
       <workItem from="1583697076460" duration="22873000" />
       <workItem from="1583835854378" duration="9619000" />
       <workItem from="1584105286870" duration="16510000" />
-      <workItem from="1584288100627" duration="4802000" />
+      <workItem from="1584288100627" duration="6574000" />
     </task>
     <task id="LOCAL-00001" summary="Deleted L==R check">
       <created>1584296616150</created>
@@ -73,7 +75,14 @@
       <option name="project" value="LOCAL" />
       <updated>1584296616150</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Deleted L==R check (2)">
+      <created>1584297166492</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1584297166492</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -82,33 +91,34 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Accepted one" />
     <MESSAGE value="Deleted L==R check" />
-    <option name="LAST_COMMIT_MESSAGE" value="Deleted L==R check" />
+    <MESSAGE value="Deleted L==R check (2)" />
+    <option name="LAST_COMMIT_MESSAGE" value="Deleted L==R check (2)" />
   </component>
   <component name="WindowStateProjectService">
     <state x="223" y="71" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1583711588807">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="223" y="71" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1536.824@0.0.1536.824" timestamp="1583711588807" />
-    <state x="406" y="11" key="CommitChangelistDialog2" timestamp="1584296615242">
+    <state x="406" y="11" key="CommitChangelistDialog2" timestamp="1584297165826">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="406" y="11" key="CommitChangelistDialog2/0.0.1536.824@0.0.1536.824" timestamp="1584296615242" />
-    <state width="1537" height="213" key="GridCell.Tab.0.bottom" timestamp="1584291259114">
+    <state x="406" y="11" key="CommitChangelistDialog2/0.0.1536.824@0.0.1536.824" timestamp="1584297165826" />
+    <state width="1537" height="213" key="GridCell.Tab.0.bottom" timestamp="1584298582563">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1537" height="213" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1584291259114" />
-    <state width="1537" height="213" key="GridCell.Tab.0.center" timestamp="1584291259114">
+    <state width="1537" height="213" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1584298582563" />
+    <state width="1537" height="213" key="GridCell.Tab.0.center" timestamp="1584298582563">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1537" height="213" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1584291259114" />
-    <state width="1537" height="213" key="GridCell.Tab.0.left" timestamp="1584291259114">
+    <state width="1537" height="213" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1584298582563" />
+    <state width="1537" height="213" key="GridCell.Tab.0.left" timestamp="1584298582563">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1537" height="213" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1584291259114" />
-    <state width="1537" height="213" key="GridCell.Tab.0.right" timestamp="1584291259114">
+    <state width="1537" height="213" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1584298582563" />
+    <state width="1537" height="213" key="GridCell.Tab.0.right" timestamp="1584298582563">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1537" height="213" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1584291259114" />
+    <state width="1537" height="213" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1584298582563" />
     <state width="1537" height="269" key="GridCell.Tab.1.bottom" timestamp="1584291154817">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -133,14 +143,14 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="580" y="332" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1536.824@0.0.1536.824" timestamp="1584296622046" />
-    <state x="425" y="187" key="run.anything.popup" timestamp="1584231282294">
+    <state x="425" y="187" key="run.anything.popup" timestamp="1584297459670">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="45" y="162" key="run.anything.popup.inPresentationMode" timestamp="1583712608988">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="45" y="162" key="run.anything.popup.inPresentationMode/0.0.1536.824@0.0.1536.824" timestamp="1583712608988" />
-    <state x="425" y="187" key="run.anything.popup/0.0.1536.824@0.0.1536.824" timestamp="1584231282294" />
+    <state x="425" y="187" key="run.anything.popup/0.0.1536.824@0.0.1536.824" timestamp="1584297459670" />
     <state x="430" y="145" width="672" height="678" key="search.everywhere.popup" timestamp="1584295853303">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
