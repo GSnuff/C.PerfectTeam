@@ -11,4 +11,4 @@ The problem link: https://codeforces.com/contest/1221/problem/C
 
 © Kutuzov Vladyslav
 
-Licensed under [MIT License](LICENSE.
+Licensed under [MIT License](LICENSE).
