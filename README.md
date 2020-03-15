@@ -10,3 +10,5 @@ The problem link: https://codeforces.com/contest/1221/problem/C
 ## License & copyright
 
 © Kutuzov Vladyslav
+
+Licensed under [MIT License](LICENSE.
